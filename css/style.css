@@ -189,18 +189,10 @@ main {
     position: relative;
 }
 
+/* 移除了推荐提示 */
 .download-btn.highlighted::after {
-    content: '✓ Recommended';
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #4CAF50;
-    color: white;
-    padding: 3px 8px;
-    border-radius: 4px;
-    font-size: 0.7rem;
-    white-space: nowrap;
+    content: '';
+    display: none;
 }
 
 @media (max-width: 768px) {
@@ -326,18 +318,8 @@ dditional styles for mobile fixed buttons */
     animation: pulse 2s infinite;
 }
 
-/* Add a small badge to indicate the recommended platform */
+/* 移除了设备推荐提示 */
 .mobile-fixed .download-btn.highlighted::before {
-    content: 'Best for your device';
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ff9800;
-    color: white;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.7rem;
-    white-space: nowrap;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    content: '';
+    display: none;
 }

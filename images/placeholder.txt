@@ -1,0 +1,6 @@
+This folder is used to store project images, including:
+- logo.png: App Logo
+- android.png: Android icon
+- ios.png: iOS icon
+
+Please place the actual image files in this folder and ensure the filenames match those referenced in the HTML.
